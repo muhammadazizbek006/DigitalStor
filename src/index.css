@@ -7,3 +7,14 @@
         @apply w-full max-w-[1280px] px-5 mx-auto
     }
 }
+
+#sidebar a.active {
+    padding-bottom: 10px;
+    border-radius: 2px;
+    font-weight: 700;
+    color: 
+    #C92071;
+    border-bottom: 3px solid 
+    #C92071; 
+  
+  }
