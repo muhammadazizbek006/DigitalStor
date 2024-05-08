@@ -19,7 +19,7 @@ const ProductDetail = () => {
                       <li className='flex justify-between'>
                         {/* left */}
                         <div>
-                          <img className='w-[498px] shadow-lg drop-shadow-lg bg-slate-50' src={e.img} alt="" />
+                          <img className='w-[498px] shadow-lg drop-shadow-lg bg-slate-50' src={e.img} alt={e.title} />
                         </div>
                         {/* right */}
                         <div className='flex flex-col justify-around'>
