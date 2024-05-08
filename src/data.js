@@ -61,6 +61,7 @@ export const Trending = [
         brend:`Tênis`,
         title:`Tênis V7 - Masculino`,
         narx:`$200`,
+        categoria:`sport`,
         skidkanarx:`$100`,
     },
     {
@@ -69,6 +70,7 @@ export const Trending = [
         brend:`Adiddas`,
         title:`Adiddas V8 - Masculino`,
         narx:`$200`,
+        categoria:`sport`,
         skidkanarx:`$100`,
     },
     {
@@ -77,6 +79,7 @@ export const Trending = [
         brend:`Calenciaga`,
         title:`Calenciaga V1 - Masculino`,
         narx:`$200`,
+        categoria:`sport`,
         skidkanarx:`$100`,
     },
     {
@@ -85,6 +88,7 @@ export const Trending = [
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -93,6 +97,7 @@ export const Trending = [
         brend:`Puma`,
         title:`Puma V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -101,6 +106,7 @@ export const Trending = [
         brend:`Tênis`,
         title:`Tênis V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -109,6 +115,7 @@ export const Trending = [
         brend:`Adiddas`,
         title:`Adiddas V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -117,6 +124,7 @@ export const Trending = [
         brend:`Calenciaga`,
         title:`Calenciaga V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -125,6 +133,7 @@ export const Trending = [
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -133,6 +142,7 @@ export const Trending = [
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -141,6 +151,7 @@ export const Trending = [
         brend:`Nike`,
         title:`Nike V - Masculino`,
         narx:`$200`,
+        categoria:`Race`,
         skidkanarx:`$100`,
     },
     {
@@ -149,6 +160,7 @@ export const Trending = [
         brend:`Nike`,
         title:`Nike V9 - Masculino`,
         narx:`$200`,
+        categoria:`Casual`,
         skidkanarx:`$100`,
     },
     {
@@ -157,6 +169,8 @@ export const Trending = [
         brend:`Tênis`,
         title:`Tênis V8 - Masculino`,
         narx:`$200`,
+        categoria:`Casual`,
+
         skidkanarx:`$100`,
     },
     {
@@ -165,6 +179,8 @@ export const Trending = [
         brend:`Puma`,
         title:`Puma V8 - Masculino`,
         narx:`$200`,
+        categoria:`Casual`,
+
         skidkanarx:`$100`,
     },
     {
@@ -173,6 +189,20 @@ export const Trending = [
         brend:`Puma`,
         title:`Puma V3 - Masculino`,
         narx:`$200`,
+        categoria:`Casual`,
         skidkanarx:`$100`,
     },
 ]
+
+
+  // function setCategoriyToArray(arr) {
+  //   let categors = new Set();
+  //   arr.forEach((item) => {
+  //     let categoriy = item.categoriy;
+  //     categors.add(categoriy);
+  //   });
+  //   let categorsArr = Array.from(categors);
+  //   return categorsArr;
+  // }
+  
+  // export const categors = setCategoriyToArray(carts);

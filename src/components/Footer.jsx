@@ -42,9 +42,9 @@ const Footer = () => {
 
             <li className=' flex flex-col space-y-3 text-lg font-semibold '>
           
-              <Link to='/Footwear'>Footwear</Link>
-              <Link to='/product'>Product</Link>
               <Link to='Shop'>Shop</Link>
+              <Link to='/product'>Product</Link>
+              <Link to='/Footwear'>Footwear</Link>
             </li>
 
             <li className='max-w-60 '>

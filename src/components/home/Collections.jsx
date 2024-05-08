@@ -15,8 +15,9 @@ const Collections = () => {
                             return(
                                 <li className='flex justify-center' key={e.id}>
                                     <Link className='flex flex-col items-center' to={e.url}>
-                                      <img className='bg-white shadow-xl p-5 mb-3   rounded-[10px]' src={e.img} alt={e.title} />
-
+                                        <div className=' p-5 rounded-full bg-white shadow-xl mb-3'>
+                                            <img className='' src={e.img} alt={e.title} />
+                                        </div>
                                         <p>{e.title}</p>
                                     </Link>
                                 </li>
