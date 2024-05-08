@@ -1,5 +1,4 @@
 // carusel 
-import Collections from './components/home/Collections'
 import carusel1 from './img/home/carusel1.png'
 import carusel2 from './img/home/carusel2.png'
 
@@ -51,4 +50,129 @@ export const Collection =  [
         url:'/Footwear' 
     }
 
+]
+
+// trending Footwer
+
+export const Trending = [
+    {
+        id:1,
+        img:carusel1,
+        brend:`Tênis`,
+        title:`Tênis V7 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:2,
+        img:carusel2,
+        brend:`Adiddas`,
+        title:`Adiddas V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:3,
+        img:carusel1,
+        brend:`Calenciaga`,
+        title:`Calenciaga V1 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:4,
+        img:carusel1,
+        brend:`Nike`,
+        title:`Nike V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:5,
+        img:carusel2,
+        brend:`Puma`,
+        title:`Puma V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:6,
+        img:carusel1,
+        brend:`Tênis`,
+        title:`Tênis V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:7,
+        img:carusel1,
+        brend:`Adiddas`,
+        title:`Adiddas V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:8,
+        img:carusel2,
+        brend:`Calenciaga`,
+        title:`Calenciaga V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:9,
+        img:carusel1,
+        brend:`Nike`,
+        title:`Nike V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:10,
+        img:carusel2,
+        brend:`Nike`,
+        title:`Nike V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:11,
+        img:carusel1,
+        brend:`Nike`,
+        title:`Nike V - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:12,
+        img:carusel1,
+        brend:`Nike`,
+        title:`Nike V9 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:13,
+        img:carusel1,
+        brend:`Tênis`,
+        title:`Tênis V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:14,
+        img:carusel2,
+        brend:`Puma`,
+        title:`Puma V8 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
+    {
+        id:15,
+        img:carusel1,
+        brend:`Puma`,
+        title:`Puma V3 - Masculino`,
+        narx:`$$200`,
+        skidkanarx:`$100`,
+    },
 ]
