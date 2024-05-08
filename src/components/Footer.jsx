@@ -34,17 +34,17 @@ const Footer = () => {
             </li>
             {/* center links */}
             <li className=' flex flex-col space-y-3 text-lg font-semibold '>
-              <Link>Shirts</Link>
-              <Link>Pants</Link>
-              <Link>Headphone</Link>
+              <Link to='/Shirts'>Shirts</Link>
+              <Link to='/Pants'>Pants</Link>
+              <Link to='/Headphones'>Headphones</Link>
 
             </li>
 
             <li className=' flex flex-col space-y-3 text-lg font-semibold '>
           
-              <Link>Footwear</Link>
-              <Link>Product</Link>
-              <Link>Shop</Link>
+              <Link to='/Footwear'>Footwear</Link>
+              <Link to='/product'>Product</Link>
+              <Link to='Shop'>Shop</Link>
             </li>
 
             <li className='max-w-60 '>
