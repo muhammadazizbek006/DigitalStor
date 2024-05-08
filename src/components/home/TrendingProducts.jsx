@@ -12,10 +12,10 @@ const TrendingProducts = () => {
           {/* top */}
           <div className='flex items-center justify-between'>
             <h2 className='text-2xl font-bold mb-5'>Trending products</h2>  
-            <div className='flex items-center'>
+            <Link to='/product' className='flex items-center'>
               <span className='text-logo text-lg mr-2'>See more</span>
               <img src={next} alt="see more" />
-            </div>
+            </Link>
           </div>
           {/* trending footwear map */}
           <ul className='grid grid-cols-4 gap-x-6 gap-y-10'>
