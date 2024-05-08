@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import next from '../../img/home/next.svg'
 import { Trending } from '../../data'
 const TrendingProducts = () => {
+  const slised = Trending.slice(8)
   return (
     <>
       <section className='py-24'>
@@ -19,7 +20,7 @@ const TrendingProducts = () => {
           {/* trending footwear map */}
           <ul className='grid grid-cols-4 gap-x-6 gap-y-10'>
             {
-              Trending.map((e)=>{
+              slised.map((e)=>{
                 return(
                   <li>
                     <Link>
