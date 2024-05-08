@@ -5,19 +5,20 @@ import instagram from '../img/home/instagram.svg'
 import twitter from '../img/home/twitter.svg'
 
 import logofooter from '../img/home/logofooter.svg'
+import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
       <section className='pt-20 pb-24 bg-[#1F1F1F] '>
-        <div className="containerb">
-          <ul className='text-white'>
+        
+          <ul className='text-white grid grid-cols-4 containerb '>
             {/* left */}
-            <li>
+            <li className='mr-12'>
               {/* logo */}
-                <div className='flex items-center mb-9'>
+                <Link to='/' className='flex items-center mb-9'>
                   <img className='mr-2' src={logofooter} alt="logofooter" />
                   <h2 className='text-4xl font-semibold '>Digital Store</h2>
-                </div>
+                </Link>
                 <p className='text-base max-w-72 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
                 <div className='flex items-center space-x-9'>
                   <a href="">
@@ -31,8 +32,28 @@ const Footer = () => {
                   </a>
                 </div>
             </li>
+            {/* center links */}
+            <li className=' flex flex-col space-y-3 text-lg font-semibold '>
+              <Link>Shirts</Link>
+              <Link>Pants</Link>
+              <Link>Headphone</Link>
+
+            </li>
+
+            <li className=' flex flex-col space-y-3 text-lg font-semibold '>
+          
+              <Link>Footwear</Link>
+              <Link>Product</Link>
+              <Link>Shop</Link>
+            </li>
+
+            <li className='max-w-60 '>
+              <h3 className='text-xl font-semibold mb-6'>Contato</h3>
+              <p className='text-base mb-3'>Av. Santos Dumont, 1510 - 1 andar - Aldeota, Fortaleza - CE, 60150-161</p>
+              <a className='text-base' href="tel+998914750612">+998-91-475-06-12</a>
+            </li>
           </ul>
-        </div>
+
       </section>
     </>
   )
