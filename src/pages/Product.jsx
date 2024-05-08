@@ -39,8 +39,13 @@ const Product = () => {
   return (
     <>
       <section className='py-8'>
+            {/* products number */}
+          <div className='flex containerb mb-8 items-center space-x-2'>
+          <h3 className='text-sm sm:text-base font-bold text-input-bg'>Resultados para “Tênis” </h3>
+          <p>- {Trending.length} products</p>
+        </div>
         <div className="containerb flex items-start justify-between gap-0 md:gap-x-10 ">
-          <div className='py-8 pl-8 pr-10 bg-white space-y-5 w-[348px]  hidden md:block'>
+          <div className='py-8 pl-8 pr-10 bg-white drop-shadow-lg shadow-xl space-y-5 w-[348px]  hidden md:block'>
             <div>
               <h3 className='mb-5 font-bold text-xl '>Filtrar por</h3>
               <hr className=' mb-5 ' />
