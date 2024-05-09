@@ -1,17 +1,10 @@
-import React from 'react';
+import React from 'react'
 import { useState } from 'react';
 import { Trending } from '../data';
 
 import { useParams } from 'react-router-dom';
 const ProductDetail = () => {
-  const [isBought, setIsBought] = useState(false);
 
-  const handleBuyClick = () => {
-    // Xarid qilindi, kerakli logika shu joyda boshqa komponentlarda o'rnatiladi
-    setIsBought(true);
-  };
-
-  
   const { id } = useParams();
 
     const Trend = Trending.filter((e) => e.id == id);
@@ -37,16 +30,7 @@ const ProductDetail = () => {
                           <p className='text-2xl font-bold '>{e.skidkanarx}</p>
                          </div>
                          <p className='text-base max-w-[440px] mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                        
-                         {!isBought ? (
-                    <button className='bg-yellow-500 py-4 rounded-md text-2xl font-bold text-white' onClick={handleBuyClick}>
-                      Buy
-                    </button>
-                  ) : (
-                    <a href={`/product/${e.id}`} className='bg-green-500 py-4 rounded-md text-2xl font-bold text-white'>
-                      Go to Product
-                    </a>
-                  )}
+                          <button className='bg-yellow-500  py-4 rounded-md text-2xl font-bold text-white '>buy</button>
                         </div>
                       </li>
                     )
