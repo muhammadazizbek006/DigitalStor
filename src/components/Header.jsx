@@ -58,7 +58,7 @@ const Header = () => {
             menu && (
               <>
 
-              <div  className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-50 " onClick={closeModal}></div>
+              <div  className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-50 " onClick={closeModal} ></div>
               
               <div className='drop-shadow-modal bg-white max-w-80 absolute p-8 right-28 top-24 z-50 shadow-lg rounded-md '>
               <div className='flex justify-between'>
@@ -75,8 +75,8 @@ const Header = () => {
               <hr className=''/>
               
               <div className='flex justify-between items-center mb-5'>
-                <b className='text-base font-bold'>Valor total:</b>
-                <p className='text-logo text-base font-bold'>R$ 219,00</p>
+                <b className='text-base font-bold'>Total amount:</b>
+                <p className='text-logo text-base font-bold'>{}</p>
               </div>
               
               <div className='flex justify-between items-center'>
