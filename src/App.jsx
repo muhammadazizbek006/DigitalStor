@@ -8,6 +8,7 @@ import Pants from './pages/pants/Pants'
 import HeadPhones from './pages/headphones/Headphones'
 import FootWear from './pages/footwear/Footwear'
 import ProductDetail from './pages/ProductDetail'
+import Shop from './pages/Shop'
 
 const App = () => {
   const router = createBrowserRouter(
@@ -16,6 +17,7 @@ const App = () => {
         <Route index element={<Home/>}/>
         <Route path='/Product' element={<Product/>}/>
         <Route path='/Product/:id' element={<ProductDetail/>}/>
+        <Route path='/Shop' element={<Shop/>}/>
         <Route path='/Shirts' element={<Shirts/>}/>
         <Route path='/Pants' element={<Pants/>}/>
         <Route path='/Headphones' element={<HeadPhones/>}/>
