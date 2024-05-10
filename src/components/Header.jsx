@@ -38,7 +38,7 @@ const Header = () => {
             </Link>
               {/* input */}
               <div className='flex  items-center relative'>
-                <input className='bg-slate-200 py-4  pl-6 w-[549px] rounded-lg' type="search"  placeholder='Pesquisar produto...'/>
+                <input className='bg-slate-200 py-4  pl-6 md:max-w-[460px] xl:w-[549px] rounded-lg' type="search"  placeholder='Pesquisar produto...'/>
                 <img className='absolute right-[12px]' src={search} alt='search' />
               </div>
 
