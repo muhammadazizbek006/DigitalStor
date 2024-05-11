@@ -7,11 +7,11 @@ const Home = () => {
   return (
     <>
       <Carusel/>
-      <div className='bg-slate-50'>
+      {/* <div className='bg-slate-50'>
       <Collections/>
       <TrendingProducts/>
       </div>
-      <Cta/>
+      <Cta/> */}
     </>
   )
 }

@@ -33,15 +33,15 @@ xz
         {
             carusel.map((e)=>{
                 return(
-                    <SwiperSlide className='flex justify-between'>
+                    <SwiperSlide className='flex flex-col-reverse lg:flex-row justify-between'>
                         {/* left */}
-                        <div className='text-start'>
-                            <h3 className='text-6xl font-extrabold mb-5'>{e.title}</h3>
+                        <div className='lg:text-start'>
+                            <h3 className=' text-2xl md:text-4xl lg:text-5xl  xl:text-6xl font-extrabold mb-5'>{e.title}</h3>
                             <p className='text-base text-input mb-10'>{e.sharx}</p>
                             <Link className='bg-logo px-14 text-white rounded-lg py-2'>Next</Link>
                         </div>
                         {/* right */}
-                        <img className='w-[733px]' src={e.img} alt={e.title} />
+                        <img className=' w-[300px] lg:w-[533px] xl:w-[733px]' src={e.img} alt={e.title} />
                     </SwiperSlide>
                 )
             })
