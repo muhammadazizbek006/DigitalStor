@@ -58,6 +58,7 @@ export const Trending = [
     {
         id:1,
         img:carusel2,
+        iscart: false,
         brend:`Tênis`,
         title:`Tênis V7 - Masculino`,
         narx:`$200`,
@@ -67,6 +68,7 @@ export const Trending = [
     {
         id:2,
         img:carusel2,
+        iscart: false,
         brend:`Adiddas`,
         title:`Adiddas V8 - Masculino`,
         narx:`$200`,
@@ -76,6 +78,7 @@ export const Trending = [
     {
         id:3,
         img:carusel2,
+        iscart: false,
         brend:`Calenciaga`,
         title:`Calenciaga V1 - Masculino`,
         narx:`$200`,
@@ -85,6 +88,7 @@ export const Trending = [
     {
         id:4,
         img:carusel2,
+        iscart: false,
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
@@ -94,6 +98,7 @@ export const Trending = [
     {
         id:5,
         img:carusel2,
+        iscart: false,
         brend:`Puma`,
         title:`Puma V8 - Masculino`,
         narx:`$200`,
@@ -103,6 +108,7 @@ export const Trending = [
     {
         id:6,
         img:carusel2,
+        iscart: false,
         brend:`Tênis`,
         title:`Tênis V8 - Masculino`,
         narx:`$200`,
@@ -112,6 +118,7 @@ export const Trending = [
     {
         id:7,
         img:carusel2,
+        iscart: false,
         brend:`Adiddas`,
         title:`Adiddas V8 - Masculino`,
         narx:`$200`,
@@ -121,6 +128,7 @@ export const Trending = [
     {
         id:8,
         img:carusel2,
+        iscart: false,
         brend:`Calenciaga`,
         title:`Calenciaga V8 - Masculino`,
         narx:`$200`,
@@ -130,6 +138,7 @@ export const Trending = [
     {
         id:9,
         img:carusel2,
+        iscart: false,
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
@@ -139,6 +148,7 @@ export const Trending = [
     {
         id:10,
         img:carusel2,
+        iscart: false,
         brend:`Nike`,
         title:`Nike V8 - Masculino`,
         narx:`$200`,
@@ -148,6 +158,7 @@ export const Trending = [
     {
         id:11,
         img:carusel2,
+        iscart: false,
         brend:`Nike`,
         title:`Nike V - Masculino`,
         narx:`$200`,
@@ -157,6 +168,7 @@ export const Trending = [
     {
         id:12,
         img:carusel2,
+        iscart: false,
         brend:`Nike`,
         title:`Nike V9 - Masculino`,
         narx:`$200`,
@@ -166,6 +178,7 @@ export const Trending = [
     {
         id:13,
         img:carusel2,
+        iscart: false,
         brend:`Tênis`,
         title:`Tênis V8 - Masculino`,
         narx:`$200`,
@@ -176,6 +189,7 @@ export const Trending = [
     {
         id:14,
         img:carusel2,
+        iscart: false,
         brend:`Puma`,
         title:`Puma V8 - Masculino`,
         narx:`$200`,
@@ -186,6 +200,7 @@ export const Trending = [
     {
         id:15,
         img:carusel2,
+        iscart: false,
         brend:`Puma`,
         title:`Puma V3 - Masculino`,
         narx:`$200`,
