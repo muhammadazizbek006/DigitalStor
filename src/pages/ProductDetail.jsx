@@ -8,6 +8,8 @@ const ProductDetail = () => {
   const { id } = useParams();
 
     const Trend = Trending.filter((e) => e.id == id);
+
+
     return (
     <>
         <section className='py-12'>
@@ -30,7 +32,7 @@ const ProductDetail = () => {
                           <p className='text-2xl font-bold '>{e.skidkanarx}</p>
                          </div>
                          <p className='text-base max-w-[440px] mb-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                          <button className='bg-yellow-500  py-4 rounded-md text-2xl font-bold text-white '>buy</button>
+                          <button className='bg-logo py-4 rounded-md text-2xl font-bold text-white '>buy</button>
                         </div>
                       </li>
                     )
