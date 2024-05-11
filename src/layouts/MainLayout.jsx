@@ -8,11 +8,11 @@ const MainLayout = () => {
   return (
     <div className='flex flex-col h-screen'>
         <Header/>
-        {/* <Nav/>
+        <Nav/>
         <main className='grow'>
             <Outlet/>
         </main>
-        <Footer/> */}
+        <Footer/>
     </div>
   )
 }
