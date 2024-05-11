@@ -9,7 +9,7 @@ const MainLayout = () => {
     <div className='flex flex-col h-screen'>
         <Header/>
         <Nav/>
-        <main className='  grow'>
+        <main className='grow'>
             <Outlet/>
         </main>
         <Footer/>
