@@ -9,6 +9,9 @@ export default {
       colors:{
         'logo':'#C92071',
         'input':'#474747',
+      },
+      screens:{
+        '900':'900px'
       }
     },
   },
