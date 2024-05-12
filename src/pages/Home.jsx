@@ -9,7 +9,7 @@ const Home = () => {
       <Carusel/>
        {/* <div className='bg-slate-50'> */}
       <Collections/>
-      {/* <TrendingProducts/> */}
+      <TrendingProducts/>
       {/* </div> */}
       {/* <Cta/>  */}
     </>
