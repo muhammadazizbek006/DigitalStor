@@ -9,7 +9,7 @@ const Collections = () => {
             <div className="containerb">
                 <h2 className='text-2xl font-bold mb-8 text-center'>Featured Collections</h2>
                 {/* collections */}
-                <ul className='flex flex-wrap justify-center space-x-16'>
+                <ul className='flex flex-wrap justify-center space-x-4 sm:space-x-9 md:space-x-16'>
                     {
                         Collection.map((e)=>{
                             return(
