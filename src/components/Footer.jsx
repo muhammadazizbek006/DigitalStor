@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       <section className='pt-20 pb-24 bg-[#1F1F1F] '>
         
-          <ul className='text-white grid grid-cols-4 containerb '>
+          <ul className='text-white grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  containerb '>
             {/* left */}
             <li className='mr-12'>
               {/* logo */}
@@ -20,7 +20,7 @@ const Footer = () => {
                   <h2 className='text-4xl font-semibold '>Digital Store</h2>
                 </Link>
                 <p className='text-base max-w-72 mb-10'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                <div className='flex items-center space-x-9'>
+                <div className='flex items-center mb-5 space-x-9'>
                   <a href="">
                     <img src={facebook} alt="facebook" />
                   </a>
@@ -32,6 +32,7 @@ const Footer = () => {
                   </a>
                 </div>
             </li>
+
             {/* center links */}
             <li className=' flex flex-col space-y-3 text-lg font-semibold '>
               <Link to='/Shirts'>Shirts</Link>
