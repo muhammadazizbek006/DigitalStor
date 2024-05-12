@@ -9,6 +9,8 @@ import {
   ListItemPrefix,
 } from "@material-tailwind/react";
 
+import filter from '../img/filter.svg'
+
 const Product = () => {
   const [filters, setFilters] = useState({
     brend: '',
@@ -40,12 +42,18 @@ const Product = () => {
     <>
       <section className='py-8'>
             {/* products number */}
-          <div className='flex containerb mb-8 items-center space-x-2'>
-          <h3 className='text-sm sm:text-base font-bold text-input-bg'>Resultados para : </h3>
-          <p> {Trending.length} products</p>
+          <div className='flex containerb mb-8 items-center justify-between '>
+          <div className='flex items-center  space-x-2 '>
+           <h3 className='text-sm sm:text-base font-bold text-input-bg'>Resultados para : </h3>
+           <p> {Trending.length} products</p>
+          </div>
+            {/* filter draw btn  */}
+            <button className='block lg:hidden'>
+              <img src={filter} alt="" />
+            </button>
         </div>
-        <div className="containerb flex items-start justify-between gap-0 md:gap-x-10 ">
-          <div className='py-8 pl-8 pr-10 bg-white drop-shadow-lg shadow-xl space-y-5 w-[348px]  hidden md:block'>
+        <div className="containerb flex items-start justify-between  md:gap-x-8 lg:gap-x-5 xl:gap-x-10 ">
+          <div className='py-8 pl-8 pr-10 bg-white drop-shadow-lg shadow-xl space-y-5 w-[348px]  hidden lg:block'>
             <div>
               <h3 className='mb-5 font-bold text-xl '>Filtrar por</h3>
               <hr className=' mb-5 ' />
@@ -74,11 +82,11 @@ const Product = () => {
             </div>
           </div>
 
-          <ul className='grid grid-cols-1 888:grid-cols-2  931:grid-cols-3 lg:grid-cols-4 gap-x-4 gap-y-10 w-full justify-items-center '>
+          <ul className='grid sm:grid-cols-2  md:grid-cols-3   xl:grid-cols-4   md:gap-x-8 lg:gap-x-5 gap-y-10 w-full justify-items-center '>
             {filteredCarts.map((e) => (
               <li key={e.id}>
-                <Link to={`/Product/${e.id}`}>
-                  <img className='bg-white drop-shadow-lg  shadow-lg pr-5 rounded-md mb-5 pb-8' src={e.img} alt={e.title} />
+                <Link className='flex flex-col items-center sm:items-start' to={`/Product/${e.id}`}>
+                  <img className='bg-white drop-shadow-lg  shadow-lg pr-3 md:pr-5 rounded-md mb-5 pb-8' src={e.img} alt={e.title} />
                   <span className=' '>{e.brend}</span>
                   <p>{e.title}</p>
                   <div className='flex items-center '>
