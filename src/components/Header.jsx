@@ -171,7 +171,19 @@ const Header = () => {
               {cardItems &&
                 cardItems.length > 0 &&
                 cardItems.map((product) => {
-                  return <li key={product.id}>{product.title}</li>;
+                  return(
+                    <li key={product.id} className="flex mb-3">
+                      
+                    <div className="w-20 bg-[#E2E3FF]  mr-5">
+                      <img src={product.img} alt="" />
+                    </div>
+                      <div>
+                        <h4 className="text-base font-bold">{product.brend}</h4>
+                        <p className="text-sm font-semibold">{product.title}</p>
+                      </div>
+                    </li>
+                  ) ;
+                  
                 })}
             </div>
 
