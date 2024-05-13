@@ -1,223 +1,228 @@
-// carusel 
-import carusel1 from './img/home/carusel1.png'
-import carusel2 from './img/home/carusel2.png'
+// carusel
+import carusel1 from "./img/home/carusel1.png";
+import carusel2 from "./img/home/carusel2.png";
 
 export const carusel = [
-    {
-        id:1,
-        title:`Nike stock burn 🔥`,
-        sharx:`The result of fault training is softened unless the exception of the time of work is followed by such anger.`,
-        img:carusel1,
-    },
-    {
-        id:2,
-        title:`the best quality ones `,
-        sharx:`The result of fault training is softened unless the exception of the time of work is followed by such anger.`,
-        img:carusel2,
-    },
-
-]
+  {
+    id: 1,
+    title: `Nike stock burn 🔥`,
+    sharx: `The result of fault training is softened unless the exception of the time of work is followed by such anger.`,
+    img: carusel1,
+  },
+  {
+    id: 2,
+    title: `the best quality ones `,
+    sharx: `The result of fault training is softened unless the exception of the time of work is followed by such anger.`,
+    img: carusel2,
+  },
+];
 
 // collections
-import collections1 from './img/home/collections1.svg'
-import collections2 from './img/home/collections2.svg'
-import collections3 from './img/home/collections3.svg'
-import collections4 from './img/home/collections4.svg'
+import collections1 from "./img/home/collections1.svg";
+import collections2 from "./img/home/collections2.svg";
+import collections3 from "./img/home/collections3.svg";
+import collections4 from "./img/home/collections4.svg";
 
-export const Collection =  [
-    {
-        id:1,
-        img:collections1,
-        title:`Shirts`,
-        url:'/Shirts' 
-    },
-    {
-        id:2,
-        img:collections2,
-        title:`Pants`,
-        url:'/Pants' 
-    },
-    {
-        id:3,
-        img:collections3,
-        title:`Headphones`,
-        url:'/Headphones' 
-    },
-    {
-        id:4,
-        img:collections4,
-        title:`Footwear`,
-        url:'/Footwear' 
-    }
-
-]
+export const Collection = [
+  {
+    id: 1,
+    img: collections1,
+    title: `Shirts`,
+    url: "/Shirts",
+  },
+  {
+    id: 2,
+    img: collections2,
+    title: `Pants`,
+    url: "/Pants",
+  },
+  {
+    id: 3,
+    img: collections3,
+    title: `Headphones`,
+    url: "/Headphones",
+  },
+  {
+    id: 4,
+    img: collections4,
+    title: `Footwear`,
+    url: "/Footwear",
+  },
+];
 
 // trending Footwer
 
 export const Trending = [
-    {
-        id:1,
-        img:carusel2,
-        iscart: false,
-        brend:`Tênis`,
-        title:`Tênis V7 - Masculino`,
-        narx:`$200`,
-        categoria:`sport`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:2,
-        img:carusel2,
-        iscart: false,
-        brend:`Adiddas`,
-        title:`Adiddas V8 - Masculino`,
-        narx:`$200`,
-        categoria:`sport`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:3,
-        img:carusel2,
-        iscart: false,
-        brend:`Calenciaga`,
-        title:`Calenciaga V1 - Masculino`,
-        narx:`$200`,
-        categoria:`sport`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:4,
-        img:carusel2,
-        iscart: false,
-        brend:`Nike`,
-        title:`Nike V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:5,
-        img:carusel2,
-        iscart: false,
-        brend:`Puma`,
-        title:`Puma V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:6,
-        img:carusel2,
-        iscart: false,
-        brend:`Tênis`,
-        title:`Tênis V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:7,
-        img:carusel2,
-        iscart: false,
-        brend:`Adiddas`,
-        title:`Adiddas V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:8,
-        img:carusel2,
-        iscart: false,
-        brend:`Calenciaga`,
-        title:`Calenciaga V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:9,
-        img:carusel2,
-        iscart: false,
-        brend:`Nike`,
-        title:`Nike V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:10,
-        img:carusel2,
-        iscart: false,
-        brend:`Nike`,
-        title:`Nike V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:11,
-        img:carusel2,
-        iscart: false,
-        brend:`Nike`,
-        title:`Nike V - Masculino`,
-        narx:`$200`,
-        categoria:`Race`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:12,
-        img:carusel2,
-        iscart: false,
-        brend:`Nike`,
-        title:`Nike V9 - Masculino`,
-        narx:`$200`,
-        categoria:`Casual`,
-        skidkanarx:`$100`,
-    },
-    {
-        id:13,
-        img:carusel2,
-        iscart: false,
-        brend:`Tênis`,
-        title:`Tênis V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Casual`,
+  {
+    id: 1,
+    img: carusel2,
+    iscart: false,
+    brend: `Tênis`,
+    title: `Tênis V7 - Masculino`,
+    narx: `$200`,
+    categoria: `sport`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 2,
+    img: carusel2,
+    iscart: false,
+    brend: `Adiddas`,
+    title: `Adiddas V8 - Masculino`,
+    narx: `$200`,
+    categoria: `sport`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 3,
+    img: carusel2,
+    iscart: false,
+    brend: `Calenciaga`,
+    title: `Calenciaga V1 - Masculino`,
+    narx: `$200`,
+    categoria: `sport`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 4,
+    img: carusel2,
+    iscart: false,
+    brend: `Nike`,
+    title: `Nike V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 5,
+    img: carusel2,
+    iscart: false,
+    brend: `Puma`,
+    title: `Puma V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 6,
+    img: carusel2,
+    iscart: false,
+    brend: `Tênis`,
+    title: `Tênis V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 7,
+    img: carusel2,
+    iscart: false,
+    brend: `Adiddas`,
+    title: `Adiddas V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 8,
+    img: carusel2,
+    iscart: false,
+    brend: `Calenciaga`,
+    title: `Calenciaga V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 9,
+    img: carusel2,
+    iscart: false,
+    brend: `Nike`,
+    title: `Nike V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 10,
+    img: carusel2,
+    iscart: false,
+    brend: `Nike`,
+    title: `Nike V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 11,
+    img: carusel2,
+    iscart: false,
+    brend: `Nike`,
+    title: `Nike V - Masculino`,
+    narx: `$200`,
+    categoria: `Race`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 12,
+    img: carusel2,
+    iscart: false,
+    brend: `Nike`,
+    title: `Nike V9 - Masculino`,
+    narx: `$200`,
+    categoria: `Casual`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 13,
+    img: carusel2,
+    iscart: false,
+    brend: `Tênis`,
+    title: `Tênis V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Casual`,
 
-        skidkanarx:`$100`,
-    },
-    {
-        id:14,
-        img:carusel2,
-        iscart: false,
-        brend:`Puma`,
-        title:`Puma V8 - Masculino`,
-        narx:`$200`,
-        categoria:`Casual`,
+    skidkanarx: `$100`,
+  },
+  {
+    id: 14,
+    img: carusel2,
+    iscart: false,
+    brend: `Puma`,
+    title: `Puma V8 - Masculino`,
+    narx: `$200`,
+    categoria: `Casual`,
 
-        skidkanarx:`$100`,
-    },
-    {
-        id:15,
-        img:carusel2,
-        iscart: false,
-        brend:`Puma`,
-        title:`Puma V3 - Masculino`,
-        narx:`$200`,
-        categoria:`Casual`,
-        skidkanarx:`$100`,
-    },
-]
+    skidkanarx: `$100`,
+  },
+  {
+    id: 15,
+    img: carusel2,
+    iscart: false,
+    brend: `Puma`,
+    title: `Puma V3 - Masculino`,
+    narx: `$200`,
+    categoria: `Casual`,
+    skidkanarx: `$100`,
+  },
+];
 
+// function setCategoriyToArray(arr) {
+//   let categors = new Set();
+//   arr.forEach((item) => {
+//     let categoriy = item.categoriy;
+//     categors.add(categoriy);
+//   });
+//   let categorsArr = Array.from(categors);
+//   return categorsArr;
+// }
 
-  // function setCategoriyToArray(arr) {
-  //   let categors = new Set();
-  //   arr.forEach((item) => {
-  //     let categoriy = item.categoriy;
-  //     categors.add(categoriy);
-  //   });
-  //   let categorsArr = Array.from(categors);
-  //   return categorsArr;
-  // }
-  
-  // export const categors = setCategoriyToArray(carts);
+// export const categors = setCategoriyToArray(carts);
+
+export  const addCard = (product)=> {
+    product.iscart = !product.iscart
+}
+
+export let headerRender = {
+    count: false
+};

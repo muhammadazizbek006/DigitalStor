@@ -22,7 +22,7 @@ const TrendingProducts = () => {
             {
               slised.map((e)=>{
                 return(
-                  <li className='flex flex-col items-center'>
+                  <li key={e.id} className='flex flex-col items-center'>
                     <Link className='flex flex-col items-center sm:items-start' to={`/Product/${e.id}`}>
                       <img className=' bg-white drop-shadow-lg pr-9 pb-7 mb-4 rounded' src={e.img} alt={e.brend} />
                       <span className='text-sm font-bold text-input'>{e.brend}</span>
