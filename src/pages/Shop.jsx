@@ -10,7 +10,15 @@ const Shop = () => {
     setCardItems(filteredCardItems);
   }, []);
   console.log(cardItems);
-  return <div>Shop</div>;
+  return(
+   <>
+    <section>
+      <div className="containerb">
+        
+      </div>
+    </section>
+   </>
+  );  
 };
 
 export default Shop;
