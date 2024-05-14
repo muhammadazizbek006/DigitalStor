@@ -28,7 +28,7 @@ const ProductDetail = () => {
                     </div>
                     {/* right */}
                     <div className="flex flex-col items-center text-center 900:items-start 900:text-start justify-around">
-                      <h3 className=" md:text-3xl lg:text-4xl font-bold ">
+                      <h3 className=" md:text-3xl lg:text-4xl font-bold mb-3 ">
                         {e.title}
                       </h3>
                       <p className="text-xl font-semibold ">
