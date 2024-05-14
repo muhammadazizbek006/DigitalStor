@@ -18,12 +18,12 @@ const Shop = () => {
           cardItems.map((e)=>{
             return(
               <ul className="">
-                <li className="mb-4">
-                <div className="flex items-start justify-between drop-shadow-lg border-b-logo border-b-2 border-dashed pb-4 pt-5 px-5">
+                <li className="mb-4  flex flex-col items-center sm:items-start text-center sm:text-start">
+                <div className="flex flex-col sm:flex-row  sm:items-start drop-shadow-lg border-b-logo border-b-2 border-dashed pb-4 pt-5 px-5">
                 {/* left */}
-                <div className="flex  ">
+                <div className="flex flex-col sm:flex-row mb-5 sm:mb-0 sm:mr-[100px] mg:mr-[300px] lg:mr-[450px]  xl:mr-[650px] ">
                 
-                <div className="bg-[#E2E3FF] w-40 pr-3 rounded mr-6">
+                <div className="bg-[#E2E3FF] w-40 pr-3 mb-3 sm:mb-0 rounded sm:mr-6">
                   <img src={e.img} alt={e.title} />
                 </div>
                   
