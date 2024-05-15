@@ -28,25 +28,25 @@ export const Collection = [
     id: 1,
     img: collections1,
     title: `Shirts`,
-    url: "/Shirts",
+    // url: "/Shirts",
   },
   {
     id: 2,
     img: collections2,
     title: `Pants`,
-    url: "/Pants",
+    // url: "/Pants",
   },
   {
     id: 3,
     img: collections3,
     title: `Headphones`,
-    url: "/Headphones",
+    // url: "/Headphones",
   },
   {
     id: 4,
     img: collections4,
     title: `Footwear`,
-    url: "/Footwear",
+    // url: "/Footwear",
   },
 ];
 

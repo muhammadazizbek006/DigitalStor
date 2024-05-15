@@ -151,7 +151,7 @@ const Header = () => {
             onClick={closeModal}
           ></div>
 
-          <div className="drop-shadow-modal bg-white max-w-72 md:max-w-80 absolute p-8 right-3 md:right-28 top-24 z-50 shadow-lg rounded-md ">
+          <div className="drop-shadow-modal bg-white max-w-72 md:max-w-80 absolute p-8 right-3 md:right-[570px] top-24 z-50 shadow-lg rounded-md ">
             <div className="flex justify-between">
               <h3 className="text-base font-bold text-input-bg mb-5">
                 Meu Carrinho
