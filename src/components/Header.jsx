@@ -10,7 +10,7 @@ import {
   ListItemSuffix,
   Chip,
 } from "@material-tailwind/react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 // img
 
@@ -55,13 +55,13 @@ const Header = () => {
   // }, [headerRender.count]);
   return (
     <>
-      <header className="py-10">
+      <header className="py-10 z-30">
         <div className="containerb flex items-center justify-between ">
           <>
             <Drawer open={open} onClose={closeDrawer} className="p-4">
-              <div className="mb-6 flex items-center justify-between">
+              <div className="mb-6 flex items-start  justify-between">
                 <Typography variant="h5" color="blue-gray">
-                  Material Tailwind
+                  Menue
                 </Typography>
                 <IconButton
                   variant="text"
@@ -84,17 +84,13 @@ const Header = () => {
                   </svg>
                 </IconButton>
               </div>
-              <Typography color="gray" className="mb-8 pr-4 font-normal">
-                Material Tailwind features multiple React and HTML components,
-                all written with Tailwind CSS classes and Material Design
-                guidelines.
+              <Typography color="gray" className="mb-8 pr-4 font-medium flex-col flex">
+                    <NavLink onClick={closeDrawer} to='/' className=''>Home</NavLink>
+                    <NavLink onClick={closeDrawer} to='/product' >Products</NavLink>
+                    <NavLink onClick={closeDrawer} to='/Shop' >Shop</NavLink>
+
               </Typography>
-              <div className="flex gap-2">
-                <Button size="sm" variant="outlined">
-                  Documentation
-                </Button>
-                <Button size="sm">Get Started</Button>
-              </div>
+
             </Drawer>
           </>
 
@@ -147,7 +143,7 @@ const Header = () => {
       {menu && (
         <>
           <div
-            className="fixed top-0 left-0 w-full h-full bg-black opacity-50 z-50 "
+            className="fixed top-0 left-0 w-full h-full bg-green-900 opacity-50 z-50 "
             onClick={closeModal}
           ></div>
 
